@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/howardpu/info/seat-selection/precache-manifest.be0012a9295261104c5fae07e30d0128.js"
+  "/seat-selection/precache-manifest.6d44a9fdef892aeb3674c498aef9df74.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/howardpu/info/seat-selection/index.html", {
+workbox.routing.registerNavigationRoute("/seat-selection/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
